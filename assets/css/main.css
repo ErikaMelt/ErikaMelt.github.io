@@ -2913,11 +2913,14 @@ input, select, textarea {
 			.image-collage {
 				display: flex;
 				flex-wrap: wrap;
+				height: 300px; /* Set the desired height for the image collage */
+				align-items: center; /* Center the images vertically */
 			  }
 			  
-			.image-collage .image {
+			  .image-collage .image {
 				flex: 0 0 33%; /* Adjust the percentage to control the size of each image */
 				margin: 2px; /* Add margin between images */
+				object-fit: cover; /* Maintain aspect ratio and crop if necessary */
 			  }
 			  
 
