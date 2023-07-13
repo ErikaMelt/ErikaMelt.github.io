@@ -3067,6 +3067,8 @@ input, select, textarea {
 			opacity: 1;
 			position: relative;
 			z-index: 1;
+			background-image: url("images/background_ds.png");
+			background-size: auto;							
 		}
 
 			#header .inner .actions {
