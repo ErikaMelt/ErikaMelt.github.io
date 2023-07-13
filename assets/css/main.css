@@ -2910,6 +2910,17 @@ input, select, textarea {
 				color: #ffffff;
 			}
 
+			.image-collage {
+				display: flex;
+				flex-wrap: wrap;
+			  }
+			  
+			.image-collage .image {
+				flex: 0 0 33%; /* Adjust the percentage to control the size of each image */
+				margin: 2px; /* Add margin between images */
+			  }
+			  
+
 /* Header */
 
 	#header {
