@@ -2915,12 +2915,12 @@ input, select, textarea {
 				flex-wrap: wrap;
 				height: 600px; /* Set the desired height for the image collage */
 				align-items: center; /* Center the images vertically */
-				justify-content: space-between; /* Distribute the remaining space equally between images */
+				justify-content: space-evenly; /* Distribute the remaining space equally between images */
 			  }
 			  
-			.image-collage .image {
-				/* flex: 0 0 calc(33% - 4px); */
-				margin: 2px; /* Add margin between images */
+			  .image-collage .image {
+				flex: 0 0 calc(33% - 15px); /* Adjust the percentage and margin value as needed */
+				margin: 5px; 
 			  }
 			  
 			  
