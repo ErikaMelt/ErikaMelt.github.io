@@ -2919,7 +2919,7 @@ input, select, textarea {
 			  }
 			  
 			.image-collage .image {
-				flex: 0 0 calc(33% - 4px); /* Adjust the percentage to control the size of each image */
+				/* flex: 0 0 calc(33% - 4px); */
 				margin: 2px; /* Add margin between images */
 			  }
 			  
